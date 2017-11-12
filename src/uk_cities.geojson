@@ -1,0 +1,2524 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2017-11-12T06:44:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/107775",
+        "admin_level": "2",
+        "capital": "yes",
+        "ele": "15",
+        "is_capital": "country",
+        "is_in": "England, United Kingdom, UK, Great Britain, Europe",
+        "is_in:continent": "Europe",
+        "is_in:country": "United Kingdom",
+        "is_in:country_code": "GB",
+        "is_in:iso_3166_2": "GB-ENG",
+        "name": "London",
+        "name:ab": "Лондан",
+        "name:af": "Londen",
+        "name:am": "ለንደን",
+        "name:an": "Londres",
+        "name:ang": "Lunden",
+        "name:ar": "لندن",
+        "name:arc": "ܠܘܢܕܘܢ",
+        "name:arz": "لندن",
+        "name:ast": "Londres",
+        "name:ba": "Лондон",
+        "name:bat-smg": "Londons",
+        "name:bcl": "Londres",
+        "name:be": "Лондан",
+        "name:be-tarask": "Лёндан",
+        "name:bg": "Лондон",
+        "name:bn": "লন্ডন",
+        "name:bo": "ལོན་ཊོན།",
+        "name:br": "Londrez",
+        "name:ca": "Londres",
+        "name:cdo": "Lùng-dŭng",
+        "name:ckb": "لەندەن",
+        "name:co": "Londra",
+        "name:cs": "Londýn",
+        "name:cu": "Лондонъ",
+        "name:cv": "Лондон",
+        "name:cy": "Llundain",
+        "name:de": "London",
+        "name:diq": "Londra",
+        "name:el": "Λονδίνο",
+        "name:eml": "Lòndra",
+        "name:en": "London",
+        "name:eo": "Londono",
+        "name:es": "Londres",
+        "name:eu": "Londres",
+        "name:ext": "Londri",
+        "name:fa": "لندن",
+        "name:fi": "Lontoo",
+        "name:fr": "Londres",
+        "name:frp": "Londres",
+        "name:fy": "Londen",
+        "name:ga": "Londain",
+        "name:gan": "倫敦",
+        "name:gd": "Lunnainn",
+        "name:gl": "Londres - London",
+        "name:gn": "Londye",
+        "name:gu": "લંડન",
+        "name:gv": "Lunnin",
+        "name:haw": "Lākana",
+        "name:he": "לונדון",
+        "name:hi": "लंदन",
+        "name:ht": "Lonn",
+        "name:hu": "London",
+        "name:hy": "Լոնդոն",
+        "name:ilo": "Londres",
+        "name:is": "Lundúnir",
+        "name:it": "Londra",
+        "name:ja": "ロンドン",
+        "name:jbo": "london",
+        "name:ka": "ლონდონი",
+        "name:kk": "Лондон",
+        "name:kn": "ಲಂಡನ್",
+        "name:ko": "런던",
+        "name:koi": "Лондон",
+        "name:krc": "Лондон",
+        "name:ku": "London",
+        "name:kv": "Лондон",
+        "name:kw": "Loundres",
+        "name:ky": "Лондон",
+        "name:la": "Londinium",
+        "name:lad": "Londra",
+        "name:lbe": "Лондон",
+        "name:lez": "Лондон",
+        "name:li": "Londe",
+        "name:lij": "Londra",
+        "name:lmo": "Lundra",
+        "name:ln": "Londoni",
+        "name:lo": "ລອນດອນ",
+        "name:lt": "Londonas",
+        "name:lv": "Londona",
+        "name:mhr": "Лондон",
+        "name:mi": "Rānana",
+        "name:mk": "Лондон",
+        "name:ml": "ലണ്ടൻ",
+        "name:mn": "Лондон",
+        "name:mr": "लंडन",
+        "name:mrj": "Лондон",
+        "name:mt": "Londra",
+        "name:mwl": "Londres",
+        "name:my": "လန်ဒန်မြို့",
+        "name:mzn": "لندن",
+        "name:nah": "Londres",
+        "name:nap": "Londra",
+        "name:nds-nl": "Londen",
+        "name:ne": "लण्डन",
+        "name:new": "लण्डन",
+        "name:nl": "Londen",
+        "name:no": "London",
+        "name:nrm": "Londres",
+        "name:oc": "Londres",
+        "name:or": "ଲଣ୍ଡନ",
+        "name:os": "Лондон",
+        "name:pcd": "Londe",
+        "name:pl": "Londyn",
+        "name:pms": "Londra",
+        "name:pnb": "لندن",
+        "name:pnt": "Λονδίνο",
+        "name:ps": "لندن",
+        "name:pt": "Londres",
+        "name:rm": "Londra",
+        "name:ro": "Londra",
+        "name:roa-rup": "Londra",
+        "name:roa-tara": "Londre",
+        "name:ru": "Лондон",
+        "name:rue": "Лондон",
+        "name:sa": "लन्डन्",
+        "name:sah": "Лондон",
+        "name:sc": "Londra",
+        "name:scn": "Londra",
+        "name:sco": "Lunnon",
+        "name:si": "ලන්ඩන්",
+        "name:sk": "Londýn",
+        "name:sq": "Londra",
+        "name:sr": "Лондон",
+        "name:sv": "London",
+        "name:szl": "Lůndůn",
+        "name:ta": "இலண்டன்",
+        "name:te": "లండన్",
+        "name:tet": "Londres",
+        "name:tg": "Лондон",
+        "name:th": "ลอนดอน",
+        "name:tl": "Londres",
+        "name:tpi": "Landen",
+        "name:tr": "Londra",
+        "name:tt": "Лондон",
+        "name:tzl": "Londra",
+        "name:udm": "Лондон",
+        "name:uk": "Лондон",
+        "name:ur": "لندن",
+        "name:vec": "Łondra",
+        "name:vi": "Luân Đôn",
+        "name:vls": "Londn",
+        "name:wo": "Londar",
+        "name:wuu": "伦敦",
+        "name:xmf": "ლონდონი",
+        "name:yi": "לאנדאן",
+        "name:yo": "Lọndọnu",
+        "name:zea": "Londen",
+        "name:zh": "倫敦",
+        "name:zh-classical": "倫敦",
+        "name:zh-simplified": "伦敦",
+        "name:zh-traditional": "倫敦",
+        "name:zh-yue": "倫敦",
+        "name:zh_pinyin": "Lúndūn",
+        "name:zu": "ILondon",
+        "note": "Centre of London officially at the former location of the Charing Cross, now the Charles I statue, near Trafalgar Square.",
+        "place": "city",
+        "population": "8416535",
+        "website": "http://www.london.gov.uk",
+        "wikidata": "Q84",
+        "wikimedia_commons": "Category:London",
+        "wikipedia": "en:London"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1276474,
+          51.5073219
+        ]
+      },
+      "id": "node/107775"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/304611",
+        "is_in": "Somerset, England, UK",
+        "is_in:continent": "Europe",
+        "is_in:country": "United Kingdom",
+        "is_in:country_code": "GB",
+        "is_in:county": "Somerset",
+        "name": "Wells",
+        "name:en": "Wells",
+        "name:hu": "Wells",
+        "name:lt": "Velsas",
+        "name:ru": "Уэллс",
+        "name:sr": "Велс",
+        "place": "city",
+        "population": "10000",
+        "wikidata": "Q212283",
+        "wikipedia": "en:Wells, Somerset"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.639455,
+          51.2073744
+        ]
+      },
+      "id": "node/304611"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/358309",
+        "alt_name:la": "Leodis;Loidis",
+        "is_in": "UK,United Kingdom, Yorkshire,West Yorkshire, Airedale",
+        "is_in:continent": "Europe",
+        "is_in:country": "United Kingdom",
+        "is_in:country_code": "GB",
+        "is_in:county": "West Yorkshire",
+        "is_in:historic_county": "Yorkshire",
+        "name": "Leeds",
+        "name:en": "Leeds",
+        "name:hu": "Leeds",
+        "name:ja": "リーズ",
+        "name:la": "Ledesia",
+        "name:lt": "Lidsas",
+        "name:ru": "Лидс",
+        "name:sr": "Лидс",
+        "name:uk": "Лідс",
+        "place": "city",
+        "population": "766,399",
+        "wikidata": "Q39121",
+        "wikipedia": "en:Leeds"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.5437941,
+          53.7974185
+        ]
+      },
+      "id": "node/358309"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1947201",
+        "heritage": "1",
+        "heritage:operator": "whc",
+        "heritage:website": "http://whc.unesco.org/en/list/428",
+        "is_in:continent": "Europe",
+        "is_in:country_code": "GB",
+        "name": "Bath",
+        "name:cy": "Caerfaddon",
+        "name:hu": "Bath",
+        "name:lt": "Batas",
+        "name:roman": "Aquae Sulis",
+        "name:ru": "Бат",
+        "name:sr": "Бат",
+        "name:uk": "Бат",
+        "place": "city",
+        "population": "84000",
+        "postal_code": "BA1",
+        "ref:whc": "428",
+        "whc:criteria": "(i)(ii)(iv)",
+        "whc:inscription_date": "1987",
+        "wikidata": "Q22889",
+        "wikipedia": "en:Bath, Somerset"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.3596963,
+          51.3813864
+        ]
+      },
+      "id": "node/1947201"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8087537",
+        "is_in:continent": "Europe",
+        "is_in:country": "United Kingdom",
+        "is_in:country_code": "GB",
+        "name": "Chester",
+        "name:cy": "Caer",
+        "name:en": "Chester",
+        "name:eo": "Ĉestro",
+        "name:hu": "Chester",
+        "name:la": "Castra Deva Victrix",
+        "name:lt": "Česteris",
+        "name:ru": "Честер",
+        "name:sr": "Честер",
+        "name:uk": "Честер",
+        "place": "city",
+        "population": "119000",
+        "wikidata": "Q170263",
+        "wikipedia": "en:Chester"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.8908955,
+          53.1908873
+        ]
+      },
+      "id": "node/8087537"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10021976",
+        "is_in": "Leicestershire, England, UK",
+        "is_in:continent": "Europe",
+        "is_in:country": "United Kingdom",
+        "is_in:country_code": "GB",
+        "is_in:county": "Leicestershire",
+        "name": "Leicester",
+        "name:cy": "Caerlŷr",
+        "name:he": "לסטר",
+        "name:hu": "Leicester",
+        "name:ja": "レスター",
+        "name:kn": "ಲೆಸ್ಟರ್",
+        "name:lt": "Lesteris",
+        "name:ru": "Лестер",
+        "name:uk": "Лестер",
+        "place": "city",
+        "population": "305700",
+        "wikidata": "Q83065",
+        "wikimedia_commons": "Category:Leicester",
+        "wikipedia": "en:Leicester"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.1330789,
+          52.6361398
+        ]
+      },
+      "id": "node/10021976"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10671639",
+        "historic:official_name": "Colonia Domitiana Lindensium",
+        "is_in:continent": "Europe",
+        "is_in:country": "United Kingdom",
+        "is_in:country_code": "GB",
+        "is_in:county": "Lincolnshire",
+        "name": "Lincoln",
+        "name:ast": "Lincoln, Inglaterra",
+        "name:be": "Лінкальн",
+        "name:en": "Lincoln",
+        "name:he": "לינקולן",
+        "name:hu": "Lincoln",
+        "name:lt": "Linkolnas",
+        "name:ru": "Линкольн",
+        "name:sr": "Линколн",
+        "name:uk": "Лінкольн",
+        "old_name": "Lindum Colonia",
+        "place": "city",
+        "population": "86000",
+        "source": "Bing",
+        "wikidata": "Q180057",
+        "wikipedia": "en:Lincoln, England"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.5392172,
+          53.2336301
+        ]
+      },
+      "id": "node/10671639"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11127374",
+        "alt_name:la": "Glasgovia",
+        "is_in": "Scotland, UK",
+        "is_in:continent": "Europe",
+        "is_in:country": "Scotland",
+        "is_in:country_1": "United Kingdom",
+        "is_in:country_code": "GB",
+        "is_in:county": "City of Glasgow",
+        "is_in:municipality": "Glasgow City",
+        "name": "Glasgow",
+        "name:be": "Глазга",
+        "name:be-tarask": "Глазга",
+        "name:ckb": "گلاسگۆ",
+        "name:en": "Glasgow",
+        "name:eo": "Glasgovo",
+        "name:gd": "Glaschu",
+        "name:hi": "ग्लास्गो",
+        "name:hu": "Glasgow",
+        "name:ja": "グラスゴー",
+        "name:kn": "ಗ್ಲಾಸ್ಗೋ",
+        "name:la": "Glasgua",
+        "name:lt": "Glazgas",
+        "name:lv": "Glāzgova",
+        "name:ru": "Глазго",
+        "name:sr": "Глазгов",
+        "name:tzl": "Glasc'hù",
+        "name:uk": "Глазго",
+        "note": "Population from http://www.nrscotland.gov.uk/files/statistics/council-area-data-sheets/glasgow-city-factsheet.pdf",
+        "place": "city",
+        "population": "606340",
+        "postal_code": "G",
+        "wikidata": "Q4093",
+        "wikipedia": "en:Glasgow"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.2435817,
+          55.856656
+        ]
+      },
+      "id": "node/11127374"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11235057",
+        "is_in": "England, Norfolk",
+        "is_in:continent": "Europe",
+        "is_in:country": "United Kingdom",
+        "is_in:country_code": "GB",
+        "is_in:county": "Norfolk",
+        "name": "Norwich",
+        "name:be": "Норыдж",
+        "name:en": "Norwich",
+        "name:hu": "Norwich",
+        "name:ko": "노리치",
+        "name:lt": "Noridžas",
+        "name:ru": "Норидж",
+        "name:sr": "Норич",
+        "name:uk": "Норвіч",
+        "place": "city",
+        "population": "195000",
+        "wikidata": "Q130191",
+        "wikipedia": "en:Norwich"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.29227,
+          52.628606
+        ]
+      },
+      "id": "node/11235057"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12805909",
+        "is_in": "Oxfordshire, England, UK",
+        "is_in:continent": "Europe",
+        "is_in:country": "United Kingdom",
+        "is_in:country_code": "GB",
+        "is_in:county": "Oxfordshire",
+        "name": "Oxford",
+        "name:ar": "أكسفورد",
+        "name:ckb": "ئۆکسفۆرد",
+        "name:cy": "Rhydychen",
+        "name:en": "Oxford",
+        "name:eo": "Oksfordo",
+        "name:gd": "Àth nan Damh",
+        "name:hu": "Oxford",
+        "name:kn": "ಆಕ್ಸ್‌ಫರ್ಡ್",
+        "name:ko": "옥스포드",
+        "name:la": "Oxonia",
+        "name:lt": "Oksfordas",
+        "name:pl": "Oksford",
+        "name:ru": "Оксфорд",
+        "name:sr": "Оксфорд",
+        "name:uk": "Оксфорд",
+        "place": "city",
+        "population": "165000",
+        "wikidata": "Q34217",
+        "wikipedia": "en:Oxford",
+        "wikipedia:ar": "أكسفورد"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.2578499,
+          51.7520131
+        ]
+      },
+      "id": "node/12805909"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/17721995",
+        "is_in": "Hampshire, England, UK",
+        "is_in:continent": "Europe",
+        "is_in:country": "United Kingdom",
+        "is_in:country_code": "GB",
+        "is_in:county": "Hampshire",
+        "loc_name": "Pompey",
+        "name": "Portsmouth",
+        "name:en": "Portsmouth",
+        "name:hu": "Portsmouth",
+        "name:ko": "포츠머스",
+        "name:lt": "Portsmutas",
+        "name:ru": "Портсмут",
+        "name:sr": "Портсмут",
+        "name:uk": "Портсмут",
+        "place": "city",
+        "population": "197700",
+        "url": "http://www.visitportsmouth.co.uk",
+        "wikidata": "Q72259",
+        "wikipedia": "en:Portsmouth"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.075614,
+          50.8036831
+        ]
+      },
+      "id": "node/17721995"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/17857512",
+        "is_in": "England, Gloucestershire",
+        "is_in:continent": "Europe",
+        "is_in:country": "United Kingdom",
+        "is_in:country_code": "GB",
+        "is_in:county": "Gloucestershire",
+        "name": "Gloucester",
+        "name:cy": "Caerloyw",
+        "name:en": "Gloucester",
+        "name:hu": "Gloucester",
+        "name:lt": "Glosteris",
+        "name:ru": "Глостер",
+        "name:sr": "Глостер",
+        "name:uk": "Глостер",
+        "place": "city",
+        "population": "121700",
+        "wikidata": "Q170497",
+        "wikipedia": "en:Gloucester"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.2458192,
+          51.8653705
+        ]
+      },
+      "id": "node/17857512"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/17859918",
+        "is_in": "West Midlands;England;UK",
+        "is_in:continent": "Europe",
+        "is_in:country": "United Kingdom",
+        "is_in:country_code": "GB",
+        "is_in:county": "West Midlands",
+        "name": "Coventry",
+        "name:be": "Ковентры",
+        "name:ja": "コヴェントリー",
+        "name:ru": "Ковентри",
+        "name:sr": "Ковентри",
+        "name:uk": "Ковентрі",
+        "name:zh": "考文垂",
+        "name:zh_pinyin": "Kǎowénchuí",
+        "place": "city",
+        "population": "337428",
+        "wikidata": "Q6225",
+        "wikipedia": "en:Coventry"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.510477,
+          52.4081812
+        ]
+      },
+      "id": "node/17859918"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/17861291",
+        "alt_name": "Brummagem",
+        "ele": "140",
+        "is_in": "West Midlands, England, United Kingdom",
+        "is_in:continent": "Europe",
+        "is_in:country": "United Kingdom",
+        "is_in:country_code": "GB",
+        "is_in:county": "West Midlands",
+        "loc_name": "Brum",
+        "name": "Birmingham",
+        "name:am": "በርሚንግሃም",
+        "name:ar": "برمنغهام (إنجلترا)",
+        "name:az": "Birmingem",
+        "name:be": "Бірмінгем",
+        "name:be-tarask": "Бірмінггэм",
+        "name:bg": "Бирмингам",
+        "name:bn": "বার্মিংহাম",
+        "name:el": "Μπέρμιγχαμ",
+        "name:en": "Birmingham",
+        "name:fa": "بیرمنگام",
+        "name:gu": "બર્મિંગહામ",
+        "name:he": "ברמינגהאם",
+        "name:hi": "बर्मिंघम",
+        "name:hu": "Birmingham",
+        "name:hy": "Բիրմինգհեմ",
+        "name:ja": "バーミンガム",
+        "name:ka": "ბირმინგემი",
+        "name:kn": "ಬರ್ಮಿಂಗ್ಹ್ಯಾಮ್",
+        "name:ko": "버밍엄",
+        "name:la": "Birminghamia",
+        "name:lt": "Birmingamas",
+        "name:lv": "Birmingema",
+        "name:mk": "Бирмингем",
+        "name:ml": "ബിർമിങ്ഹാം",
+        "name:mr": "बर्मिंगहॅम",
+        "name:my": "ဘာမင်ဂမ်မြို့",
+        "name:pa": "ਬਰਮਿੰਘਮ",
+        "name:ru": "Бирмингем",
+        "name:sr": "Бирмингем",
+        "name:ta": "பர்மிங்காம் (ஐக்கிய இராச்சியம்)",
+        "name:te": "బర్మింగ్‌హామ్",
+        "name:th": "เบอร์มิงแฮม",
+        "name:ug": "Birmin'gxam",
+        "name:uk": "Бірмінгем",
+        "name:ur": "برمنگھم",
+        "name:yi": "בירמינגהאם",
+        "name:zh": "伯明翰",
+        "old_name": "Beormingahām",
+        "place": "city",
+        "population": "1036878",
+        "postal_code": "B",
+        "source:population": "Council tax bill 2012",
+        "wikidata": "Q2256",
+        "wikipedia": "en:Birmingham"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.8948516,
+          52.4776875
+        ]
+      },
+      "id": "node/17861291"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/17898859",
+        "alt_name:la": "Edinburgum;Dunedinum",
+        "capital": "4",
+        "ele": "47",
+        "is_in:continent": "Europe",
+        "is_in:country": "Scotland",
+        "is_in:country_1": "United Kingdom",
+        "is_in:country_code": "GB",
+        "name": "Edinburgh",
+        "name:ar": "إدنبرة",
+        "name:ast": "Edimburgo",
+        "name:bat-smg": "Edėnborgs",
+        "name:be": "Эдынбург",
+        "name:be-tarask": "Эдынбург",
+        "name:br": "Dinedin",
+        "name:ca": "Edimburg",
+        "name:cy": "Caeredin",
+        "name:de": "Edinburg",
+        "name:el": "Εδιμβούργο",
+        "name:eo": "Edinburgo",
+        "name:es": "Edimburgo",
+        "name:eu": "Edinburgo",
+        "name:fa": "ادینبورو",
+        "name:fr": "Édimbourg",
+        "name:fy": "Edinboarch",
+        "name:gd": "Dùn Èideann",
+        "name:gv": "Doon Edin",
+        "name:he": "אדינבורג",
+        "name:hi": "ऎडिन्बर",
+        "name:hu": "Edinburgh",
+        "name:is": "Edinborg",
+        "name:it": "Edimburgo",
+        "name:ja": "エディンバラ",
+        "name:kn": "ಎಡಿನ್ಬರ",
+        "name:kw": "Karedin",
+        "name:la": "Edimburgum",
+        "name:lt": "Edinburgas",
+        "name:lv": "Edinburga",
+        "name:mi": "Ētinipara",
+        "name:pl": "Edynburg",
+        "name:pronunciation": "ˈɛdɪnb(ə)rə",
+        "name:ru": "Эдинбург",
+        "name:sk": "Edinburg",
+        "name:sq": "Edinburg",
+        "name:sr": "Единбург",
+        "name:sv": "Edinburgh",
+        "name:tt": "Эдинбург",
+        "name:uk": "Единбург",
+        "name:zh": "爱丁堡",
+        "name:zh_pinyin": "Àidīngbǎo",
+        "place": "city",
+        "population": "498810",
+        "source_ref:capital": "http://comments.gmane.org/gmane.comp.gis.openstreetmap/55712",
+        "wikidata": "Q23436",
+        "wikipedia": "en:Edinburgh"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1914972,
+          55.9495628
+        ]
+      },
+      "id": "node/17898859"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/17916174",
+        "is_in": "Kent, England, UK",
+        "is_in:continent": "Europe",
+        "is_in:country": "United Kingdom",
+        "is_in:country_code": "GB",
+        "is_in:county": "Kent",
+        "name": "Canterbury",
+        "name:br": "Canterbury",
+        "name:cy": "Caergaint",
+        "name:en": "Canterbury",
+        "name:fr": "Cantorbéry",
+        "name:hu": "Canterbury",
+        "name:la": "Cantuaria",
+        "name:lt": "Kenterberis",
+        "name:lv": "Kanterburija",
+        "name:ru": "Кентербери",
+        "name:sr": "Кентербери",
+        "name:uk": "Кентербері",
+        "place": "city",
+        "population": "43400",
+        "wikidata": "Q29303",
+        "wikipedia": "en:Canterbury"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.0802533,
+          51.2800275
+        ]
+      },
+      "id": "node/17916174"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/17951258",
+        "is_in:continent": "Europe",
+        "is_in:country": "United Kingdom",
+        "is_in:country_code": "GB",
+        "is_in:county": "Cambridgeshire",
+        "name": "Peterborough",
+        "name:en": "Peterborough",
+        "name:hu": "Peterborough",
+        "name:lt": "Piterboras",
+        "name:ru": "Питерборо",
+        "name:sr": "Питерборо",
+        "name:uk": "Пітерборо",
+        "place": "city",
+        "population": "183600",
+        "wikidata": "Q172438",
+        "wikipedia": "en:Peterborough"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2416701,
+          52.5738875
+        ]
+      },
+      "id": "node/17951258"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/17986274",
+        "is_in": "Devon, England, UK",
+        "is_in:continent": "Europe",
+        "is_in:country": "United Kingdom",
+        "is_in:country_code": "GB",
+        "is_in:county": "Devon",
+        "name": "Plymouth",
+        "name:ar": "بليموث",
+        "name:be": "Плімут",
+        "name:cy": "Aberplym",
+        "name:en": "Plymouth",
+        "name:hu": "Plymouth",
+        "name:ja": "プリマス",
+        "name:lt": "Plimutas",
+        "name:ru": "Плимут",
+        "name:sr": "Плимут",
+        "name:uk": "Плімут",
+        "place": "city",
+        "population": "258700",
+        "wikidata": "Q43382",
+        "wikipedia": "en:Plymouth"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.1425658,
+          50.3712659
+        ]
+      },
+      "id": "node/17986274"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/18009959",
+        "is_in": "Devon, England, UK",
+        "is_in:continent": "Europe",
+        "is_in:country": "United Kingdom",
+        "is_in:country_code": "GB",
+        "is_in:county": "Devon",
+        "name": "Exeter",
+        "name:be": "Эксэтэр",
+        "name:cy": "Caerwysg",
+        "name:en": "Exeter",
+        "name:hu": "Exeter",
+        "name:la": "Isca Dumnoniorum",
+        "name:lt": "Ekseteris",
+        "name:ru": "Эксетер",
+        "name:sr": "Ексетер",
+        "name:uk": "Ексетер",
+        "old_name": "Isca",
+        "place": "city",
+        "population": "113507",
+        "website": "http://www.exeter.gov.uk/",
+        "wikidata": "Q134672",
+        "wikipedia": "en:Exeter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5269108,
+          50.725562
+        ]
+      },
+      "id": "node/18009959"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/20910685",
+        "alt_name": "Newcastle",
+        "alt_name:la": "Novum Castellum",
+        "is_in": "UK, England, Northumberland, Tyne & Wear",
+        "is_in:continent": "Europe",
+        "is_in:country": "United Kingdom",
+        "is_in:county": "Tyne and Wear",
+        "is_in:historic_county": "Northumberland",
+        "name": "Newcastle upon Tyne",
+        "name:ar": "نيوكاسل أبون تاين",
+        "name:az": "Nyukasl apon Tayn",
+        "name:be": "Ньюкасл-апан-Тайн",
+        "name:bg": "Нюкасъл ъпон Тайн",
+        "name:bn": "নিউক্যাসল আপন ট্যাইন",
+        "name:el": "Νιούκασλ",
+        "name:fa": "نیوکاسل آپون تاین",
+        "name:fr": "Newcastle upon Tyne",
+        "name:gd": "An Caisteal Nuadh",
+        "name:he": "ניוקאסל",
+        "name:hu": "Newcastle",
+        "name:ja": "ニューカッスル・アポン・タイン",
+        "name:ka": "ნიუკასლ-აპონ-ტაინი",
+        "name:ko": "뉴캐슬어폰타인",
+        "name:la": "Novum Castellum super Tinam",
+        "name:lt": "Niukaslas prie Taino",
+        "name:lv": "Ņūkāsla pie Tainas",
+        "name:mr": "न्यूकॅसल अपॉन टाईन",
+        "name:pa": "نیوکاسل",
+        "name:ru": "Ньюкасл-апон-Тайн",
+        "name:sr": "Њукасл на Тајну",
+        "name:ta": "டைன் ஆற்றங்கரை நியூ காசில்",
+        "name:th": "นิวคาสเซิลอะพอนไทน์",
+        "name:uk": "Ньюкасл-апон-Тайн",
+        "name:ur": "نیوکاسڵ",
+        "name:vi": "Newcastle trên sông Tyne",
+        "name:yi": "ניוקאסטל",
+        "name:zh": "紐卡素",
+        "place": "city",
+        "population": "289835",
+        "wikidata": "Q1425428",
+        "wikipedia": "en:Newcastle upon Tyne"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.6142059,
+          54.9770924
+        ]
+      },
+      "id": "node/20910685"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/20913294",
+        "alt_name": "York City Centre",
+        "int_name": "York",
+        "is_in": "England, North Yorkshire",
+        "is_in:continent": "Europe",
+        "is_in:country": "United Kingdom",
+        "is_in:country_code": "GB",
+        "is_in:historic_county": "Yorkshire",
+        "name": "York",
+        "name:ckb": "یۆرک",
+        "name:cy": "Efrog",
+        "name:en": "York",
+        "name:eo": "Jorko",
+        "name:ga": "Eabhrac",
+        "name:he": "יורק",
+        "name:hu": "York",
+        "name:is": "Jórvík",
+        "name:lt": "Jorkas",
+        "name:lv": "Jorka",
+        "name:pt": "Iorque",
+        "name:ru": "Йорк",
+        "name:sr": "Јорк",
+        "name:uk": "Йорк",
+        "note:population": "2001 urban Population",
+        "old_name": "Eboracum",
+        "place": "city",
+        "population": "137000",
+        "wikidata": "Q42462",
+        "wikipedia": "en:York"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.0815361,
+          53.9590555
+        ]
+      },
+      "id": "node/20913294"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/20949228",
+        "is_in": "Cumbria, England, UK",
+        "is_in:continent": "Europe",
+        "is_in:country": "United Kingdom",
+        "is_in:country_code": "GB",
+        "is_in:county": "Cumbria",
+        "is_in:historic_county": "Cumberland",
+        "name": "Carlisle",
+        "name:cy": "Caerliwelydd",
+        "name:en": "Carlisle",
+        "name:hu": "Carlisle",
+        "name:la": "Carliolum",
+        "name:lt": "Karlailas",
+        "name:ru": "Карлайл",
+        "name:sr": "Карлајл",
+        "name:uk": "Карлайл",
+        "place": "city",
+        "population": "72000",
+        "wikidata": "Q192896",
+        "wikipedia": "en:Carlisle, Cumbria"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.9362311,
+          54.8948478
+        ]
+      },
+      "id": "node/20949228"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/20959520",
+        "is_in:continent": "Europe",
+        "is_in:country": "United Kingdom",
+        "is_in:country_code": "GB",
+        "is_in:county": "Tyne and Wear",
+        "is_in:historic_county": "County Durham",
+        "name": "Sunderland",
+        "name:en": "Sunderland",
+        "name:hu": "Sunderland",
+        "name:lt": "Sanderlandas",
+        "name:ru": "Сандерленд",
+        "name:sr": "Садерленд",
+        "name:uk": "Сандерленд",
+        "place": "city",
+        "population": "275300",
+        "wikidata": "Q188304",
+        "wikipedia": "en:Sunderland, Tyne and Wear"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.375053,
+          54.9063791
+        ]
+      },
+      "id": "node/20959520"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/20971094",
+        "addr:postcode": "CB1",
+        "is_in": "Cambridgeshire, England, UK",
+        "is_in:continent": "Europe",
+        "is_in:country": "United Kingdom",
+        "is_in:country_code": "GB",
+        "is_in:county": "Cambridgeshire",
+        "name": "Cambridge",
+        "name:be": "Кембрыдж",
+        "name:ckb": "کامبریج",
+        "name:cy": "Caergrawnt",
+        "name:en": "Cambridge",
+        "name:eo": "Kembriĝo",
+        "name:hu": "Cambridge",
+        "name:lt": "Kembridžas",
+        "name:ru": "Кембридж",
+        "name:sr": "Кембриџ",
+        "name:uk": "Кембридж",
+        "place": "city",
+        "population": "145818",
+        "wikidata": "Q350",
+        "wikipedia": "en:Cambridge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.124862,
+          52.2033051
+        ]
+      },
+      "id": "node/20971094"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/20971097",
+        "is_in": "Worcestershire",
+        "is_in:continent": "Europe",
+        "is_in:country": "United Kingdom",
+        "is_in:country_code": "GB",
+        "is_in:county": "Worcestershire",
+        "name": "Worcester",
+        "name:cy": "Caerwrangon",
+        "name:en": "Worcester",
+        "name:hu": "Worcester",
+        "name:lt": "Vusteris",
+        "name:ru": "Вустер",
+        "name:sr": "Вустер",
+        "name:uk": "Вустер",
+        "note": "City centre street names largely done from memory and ooc maps",
+        "place": "city",
+        "population": "94000",
+        "wikidata": "Q1646181",
+        "wikipedia": "en:Worcester"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.2206585,
+          52.1911849
+        ]
+      },
+      "id": "node/20971097"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/21025675",
+        "is_in": "England, Essex",
+        "is_in:continent": "Europe",
+        "is_in:country": "United Kingdom",
+        "is_in:country_code": "GB",
+        "name": "Chelmsford",
+        "name:en": "Chelmsford",
+        "name:hu": "Chelmsford",
+        "name:lt": "Čelmsfordas",
+        "name:ru": "Челмсфорд",
+        "name:sr": "Челмсфорд",
+        "name:uk": "Челмсфорд",
+        "note": "place=city status awarded by the queen in March 2012. The county town of Essex",
+        "old_name": "Caesaromagus",
+        "place": "city",
+        "population": "120000",
+        "wikidata": "Q210985",
+        "wikipedia": "en:Chelmsford"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.4724544,
+          51.7345436
+        ]
+      },
+      "id": "node/21025675"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/21027566",
+        "is_in": "West Yorkshire, England, UK",
+        "is_in:continent": "Europe",
+        "is_in:country": "United Kingdom",
+        "is_in:country_code": "GB",
+        "is_in:county": "West Yorkshire",
+        "is_in:historic_county": "Yorkshire",
+        "name": "Wakefield",
+        "name:en": "Wakefield",
+        "name:hu": "Wakefield",
+        "name:lt": "Veikfildas",
+        "name:ru": "Уэйкфилд",
+        "name:sr": "Вејкфилд",
+        "name:uk": "Вейкфілд",
+        "place": "city",
+        "population": "322300",
+        "wikidata": "Q216638",
+        "wikipedia": "en:Wakefield"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.5000466,
+          53.6825669
+        ]
+      },
+      "id": "node/21027566"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/21063119",
+        "is_in": "Highland;Scotland;United Kingdom;Europe",
+        "is_in:continent": "Europe",
+        "is_in:country": "Scotland",
+        "is_in:iso_3166_2": "SCT",
+        "is_in:province": "United Kingdom",
+        "name": "Inverness",
+        "name:ar": "إنفرنيس",
+        "name:en": "Inverness",
+        "name:gd": "Inbhir Nis",
+        "name:hu": "Inverness",
+        "name:ja": "インヴァネス",
+        "name:lt": "Invernesas",
+        "name:ru": "Инвернесс",
+        "name:sr": "Инвернес",
+        "name:uk": "Інвернесс",
+        "place": "city",
+        "population": "67230",
+        "wikidata": "Q160493",
+        "wikipedia": "en:Inverness"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.225739,
+          57.4790124
+        ]
+      },
+      "id": "node/21063119"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/21063362",
+        "alt_name:la": "Aberdonium",
+        "is_in": "Scotland",
+        "is_in:continent": "Europe",
+        "is_in:country": "United Kingdom",
+        "is_in:historic_county": "Aberdeenshire",
+        "name": "Aberdeen",
+        "name:ar": "أبردين",
+        "name:be": "Абердзін",
+        "name:en": "Aberdeen",
+        "name:gd": "Obar Dheathain",
+        "name:hu": "Aberdeen",
+        "name:ja": "アバディーン",
+        "name:la": "Aberdonia",
+        "name:lt": "Aberdynas",
+        "name:nds": "Aberdeen",
+        "name:ru": "Абердин",
+        "name:sr": "Абердин",
+        "name:uk": "Абердин",
+        "place": "city",
+        "population": "220420",
+        "wikidata": "Q36405",
+        "wikipedia": "en:Aberdeen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.0913745,
+          57.1452452
+        ]
+      },
+      "id": "node/21063362"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/21063632",
+        "is_in": "Wales,UK",
+        "is_in:continent": "Europe",
+        "is_in:country": "United Kingdom",
+        "is_in:historic_county": "Glamorganshire",
+        "is_in:preserved_county": "West Glamorgan",
+        "name": "Swansea",
+        "name:br": "Abertawe",
+        "name:cy": "Abertawe",
+        "name:en": "Swansea",
+        "name:hu": "Swansea",
+        "name:ja": "スウォンジ",
+        "name:lt": "Svonsis",
+        "name:ru": "Суонси",
+        "name:sr": "Свонзи",
+        "name:uk": "Свонсі",
+        "nat_name": "Abertawe",
+        "place": "city",
+        "population": "239000",
+        "wikidata": "Q23051",
+        "wikipedia": "en:Swansea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.9467751,
+          51.6211442
+        ]
+      },
+      "id": "node/21063632"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/21091709",
+        "is_in": "Scotland, UK",
+        "is_in:continent": "Europe",
+        "is_in:country": "United Kingdom",
+        "is_in:historic_county": "Stirlingshire",
+        "name": "Stirling",
+        "name:en": "Stirling",
+        "name:gd": "Sruighlea",
+        "name:hu": "Stirling",
+        "name:ja": "スターリング",
+        "name:lt": "Stirlingas",
+        "name:ru": "Стирлинг",
+        "name:sr": "Стирлинг",
+        "name:uk": "Стерлінг",
+        "place": "city",
+        "population": "33700",
+        "wikidata": "Q182923",
+        "wikipedia": "en:Stirling"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.9360012,
+          56.1181242
+        ]
+      },
+      "id": "node/21091709"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/21141604",
+        "is_in:continent": "Europe",
+        "is_in:country": "United Kingdom",
+        "is_in:county": "Staffordshire",
+        "is_in:historic_county": "Staffordshire",
+        "name": "Lichfield",
+        "name:bg": "Личфийлд",
+        "name:cy": "Caerlwytgoed",
+        "name:hu": "Lichfield",
+        "name:ru": "Личфилд",
+        "name:uk": "Лічфілд",
+        "place": "city",
+        "population": "30600",
+        "source": "NPE",
+        "wikidata": "Q207371",
+        "wikipedia": "en:Lichfield"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.8275286,
+          52.6843696
+        ]
+      },
+      "id": "node/21141604"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/21181736",
+        "is_in:continent": "Europe",
+        "is_in:country": "United Kingdom",
+        "is_in:county": "Durham",
+        "is_in:historic_county": "County Durham",
+        "name": "Durham",
+        "name:en": "Durham",
+        "name:hu": "Durham",
+        "name:la": "Dunelmum",
+        "name:lt": "Daramas",
+        "name:ru": "Дарем",
+        "name:sr": "Дарам",
+        "name:uk": "Дарем",
+        "place": "city",
+        "population": "42100",
+        "source:name": "common knowledge",
+        "wikidata": "Q179815",
+        "wikipedia": "en:Durham, England"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.5758539,
+          54.7764152
+        ]
+      },
+      "id": "node/21181736"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/21262494",
+        "addr:postcode": "PH1",
+        "is_in": "Perthshire, Scotland, United Kingdom",
+        "is_in:continent": "Europe",
+        "is_in:country": "United Kingdom",
+        "name": "Perth",
+        "name:de": "Perth",
+        "name:en": "Perth",
+        "name:gd": "Peairt",
+        "name:hu": "Perth",
+        "name:lt": "Pertas",
+        "name:ru": "Перт",
+        "name:sr": "Перт",
+        "name:uk": "Перт",
+        "place": "city",
+        "population": "45000",
+        "wikidata": "Q203000",
+        "wikipedia": "en:Perth, Scotland"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.4345334,
+          56.3956402
+        ]
+      },
+      "id": "node/21262494"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/21262495",
+        "is_in:continent": "Europe",
+        "is_in:country": "United Kingdom",
+        "name": "Dundee",
+        "name:be": "Данды",
+        "name:be-tarask": "Данды",
+        "name:en": "Dundee",
+        "name:gd": "Dùn Dèagh",
+        "name:hu": "Dundee",
+        "name:la": "Taodunum",
+        "name:lt": "Dandi",
+        "name:ru": "Данди",
+        "name:sr": "Данди",
+        "name:uk": "Данді",
+        "place": "city",
+        "population": "140000",
+        "wikidata": "Q123709",
+        "wikipedia": "en:Dundee"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.9735213,
+          56.4593653
+        ]
+      },
+      "id": "node/21262495"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/21280555",
+        "is_in:continent": "Europe",
+        "is_in:country": "United Kingdom",
+        "is_in:county": "Herefordshire",
+        "name": "Hereford",
+        "name:cy": "Henffordd",
+        "name:hu": "Hereford",
+        "name:ru": "Херефорд",
+        "name:sr": "Херефорд",
+        "name:uk": "Герефорд",
+        "place": "city",
+        "population": "55800",
+        "source": "NPE",
+        "wikidata": "Q204720",
+        "wikipedia": "en:Hereford"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.7151735,
+          52.0553813
+        ]
+      },
+      "id": "node/21280555"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/21413563",
+        "is_in": "Wales",
+        "is_in:continent": "Europe",
+        "is_in:country": "United Kingdom",
+        "is_in:county": "Gwynedd",
+        "name": "Bangor",
+        "name:hu": "Bangor",
+        "name:ru": "Бангор",
+        "name:sr": "Бангор",
+        "name:uk": "Бангор",
+        "place": "city",
+        "population": "17988",
+        "source": "Personal knowledge",
+        "wikidata": "Q234178",
+        "wikipedia": "en:Bangor, Gwynedd"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.1268822,
+          53.2277187
+        ]
+      },
+      "id": "node/21413563"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/21421501",
+        "alt_name:la": "Liverpula;Liverpalus;Liverpolis",
+        "ele": "70",
+        "is_in": "Merseyside, England, UK",
+        "is_in:continent": "Europe",
+        "is_in:country": "United Kingdom",
+        "is_in:country_code": "GB",
+        "is_in:county": "Merseyside",
+        "is_in:historic_county": "Lancashire",
+        "name": "Liverpool",
+        "name:be": "Ліверпул",
+        "name:ckb": "لیڤەرپوول",
+        "name:cy": "Lerpwl",
+        "name:eo": "Liverpolo",
+        "name:fa": "لیورپول",
+        "name:gv": "Lerphoyll",
+        "name:hu": "Liverpool",
+        "name:ja": "リヴァプール",
+        "name:kn": "ಲಿವರ್‌ಪೂಲ್",
+        "name:ko": "리버풀",
+        "name:la": "Liverpolium",
+        "name:lv": "Liverpūle",
+        "name:ru": "Ливерпуль",
+        "name:sr": "Ливерпул",
+        "name:uk": "Ліверпуль",
+        "place": "city",
+        "population": "434900",
+        "wikidata": "Q24826",
+        "wikipedia": "en:Liverpool"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.9805392,
+          53.4054719
+        ]
+      },
+      "id": "node/21421501"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/21436318",
+        "is_in": "Lancashire, England, UK",
+        "is_in:continent": "Europe",
+        "is_in:country": "United Kingdom",
+        "is_in:county": "Lancashire",
+        "name": "Preston",
+        "name:en": "Preston",
+        "name:hu": "Preston",
+        "name:ru": "Престон",
+        "name:sr": "Престон",
+        "name:uk": "Престон",
+        "place": "city",
+        "population": "114300",
+        "source": "NPE",
+        "wikidata": "Q184090",
+        "wikipedia": "en:Preston, Lancashire"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.7051618,
+          53.7589938
+        ]
+      },
+      "id": "node/21436318"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/21904579",
+        "is_in": "England, Derbyshire",
+        "is_in:continent": "Europe",
+        "is_in:country": "United Kingdom",
+        "is_in:country_code": "GB",
+        "is_in:county": "Derbyshire",
+        "name": "Derby",
+        "name:ar": "ديربي",
+        "name:en": "Derby",
+        "name:hu": "Derby",
+        "name:lt": "Derbis",
+        "name:ru": "Дерби",
+        "name:sr": "Дарби",
+        "name:uk": "Дербі",
+        "name:zh": "德比",
+        "place": "city",
+        "population": "233700",
+        "wikidata": "Q43475",
+        "wikipedia": "en:Derby"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.4761491,
+          52.9212617
+        ]
+      },
+      "id": "node/21904579"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/24913081",
+        "image": "http://mapillary.com/map/im/jwuMFkDCYKL1ILIoH0OUqQ",
+        "is_in:continent": "Europe",
+        "is_in:country": "United Kingdom",
+        "is_in:country_code": "GB",
+        "is_in:county": "Nottinghamshire",
+        "name": "Nottingham",
+        "name:be": "Но́тынгем",
+        "name:en": "Nottingham",
+        "name:hu": "Nottingham",
+        "name:ja": "ノッティンガム",
+        "name:ru": "Ноттингем",
+        "name:sr": "Нотингем",
+        "name:uk": "Ноттінгем",
+        "note": "2016-Aug: node moved from outside Royal Centre to Slab Square; Nottm is union of 2 communities which used to meet in the Market Place, hence the move.",
+        "place": "city",
+        "population": "305700",
+        "wikidata": "Q41262",
+        "wikipedia": "en:Nottingham"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.1492773,
+          52.9534161
+        ]
+      },
+      "id": "node/24913081"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/25342557",
+        "is_in": "Hertfordshire, England, UK",
+        "name": "St Albans",
+        "name:en": "St Albans",
+        "name:hu": "St Albans",
+        "name:ru": "Сент-Олбанс",
+        "name:sr": "Сент Олбанс",
+        "name:uk": "Сент-Олбанс",
+        "not:name": "Saint Albans",
+        "place": "city",
+        "population": "57795",
+        "website:official": "http://www.stalbans.gov.uk",
+        "wikidata": "Q6226",
+        "wikipedia": "en:St Albans"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3422526,
+          51.7492956
+        ]
+      },
+      "id": "node/25342557"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/25472086",
+        "is_in": "West Midlands, England, United Kingdom",
+        "is_in:continent": "Europe",
+        "is_in:country": "United Kingdom",
+        "is_in:district": "Wolverhampton",
+        "name": "Wolverhampton",
+        "name:hu": "Wolverhampton",
+        "name:ja": "ウォルヴァーハンプトン",
+        "name:ru": "Вулвергемптон",
+        "name:sr": "Вулверхемптон",
+        "name:uk": "Вулвергемптон",
+        "place": "city",
+        "population": "251462",
+        "source:population": "urban area population, census 2001",
+        "wikidata": "Q126269",
+        "wikipedia": "en:Wolverhampton"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.127567,
+          52.5847651
+        ]
+      },
+      "id": "node/25472086"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26528071",
+        "alt_name": "Stoke",
+        "name": "Stoke-on-Trent",
+        "name:en": "Stoke-on-Trent",
+        "name:ja": "ストーク・オン・トレント",
+        "name:ru": "Сток-он-Трент",
+        "name:sr": "Стоук на Тренту",
+        "name:uk": "Сток-он-Трент",
+        "note": "between stoke and hanley",
+        "place": "city",
+        "population": "249000",
+        "wikidata": "Q134902",
+        "wikipedia": "en:Stoke-on-Trent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.1812607,
+          53.0162014
+        ]
+      },
+      "id": "node/26528071"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26700976",
+        "is_in": "Lancashire, England, UK",
+        "is_in:continent": "Europe",
+        "is_in:country": "United Kingdom",
+        "is_in:county": "Lancashire",
+        "name": "Lancaster",
+        "name:be": "Ланкастэр",
+        "name:cy": "Caerhirfryn",
+        "name:eo": "Lankastro",
+        "name:fr": "Lancaster",
+        "name:hu": "Lancaster",
+        "name:lt": "Lankasteris",
+        "name:ru": "Ланкастер",
+        "name:sr": "Ланкастер",
+        "name:uk": "Ланкастер",
+        "place": "city",
+        "population": "46000",
+        "wikidata": "Q205905",
+        "wikipedia": "en:Lancaster, Lancashire"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.7990345,
+          54.0484068
+        ]
+      },
+      "id": "node/26700976"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26700977",
+        "is_in": "Newport, United Kingdom",
+        "is_in:continent": "Europe",
+        "is_in:country": "United Kingdom",
+        "is_in:country_code": "GB",
+        "is_in:historic_county": "Monmouthshire",
+        "is_in:preserved_county": "Gwent",
+        "name": "Newport",
+        "name:be": "Ньюпарт",
+        "name:br": "Casnewydd",
+        "name:cy": "Casnewydd",
+        "name:en": "Newport",
+        "name:hu": "Newport",
+        "name:ja": "ニューポート",
+        "name:la": "Novus Burgus",
+        "name:ru": "Ньюпорт",
+        "name:sr": "Њупорт",
+        "name:uk": "Ньюпорт",
+        "place": "city",
+        "population": "146841",
+        "postal_code": "NP",
+        "wikidata": "Q101254",
+        "wikipedia": "en:Newport"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.9974967,
+          51.5882332
+        ]
+      },
+      "id": "node/26700977"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26701158",
+        "alt_name": "Kingston upon Hull",
+        "alt_name:en": "Kingston upon Hull",
+        "alt_name:fr": "Kingston-upon-Hull",
+        "name": "Hull",
+        "name:ar": "كينغستون أبون هال",
+        "name:fr": "Hull",
+        "name:hu": "Hull",
+        "name:ru": "Кингстон-апон-Халл",
+        "name:uk": "Кінгстон-апон-Галл",
+        "note": "The common, short name of Hull is being used rather than the long very rarely use long name of Kingston upon Hull. Please do not change to the long version without discussion",
+        "official_name": "Kingston upon Hull",
+        "place": "city",
+        "population": "259000",
+        "short_name": "Hull",
+        "wikidata": "Q128147",
+        "wikipedia": "en:Kingston upon Hull"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3394758,
+          53.7435722
+        ]
+      },
+      "id": "node/26701158"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26701367",
+        "is_in": "UK,England,Yorkshire,West Yorkshire",
+        "is_in:continent": "Europe",
+        "is_in:country": "United Kingdom",
+        "is_in:county": "West Yorkshire",
+        "is_in:historic_county": "Yorkshire",
+        "name": "Bradford",
+        "name:be": "Брэдфард",
+        "name:en": "Bradford",
+        "name:hu": "Bradford",
+        "name:ja": "ブラッドフォード",
+        "name:lt": "Bradfordas",
+        "name:ru": "Брэдфорд",
+        "name:sr": "Бредфорд",
+        "name:uk": "Бредфорд",
+        "place": "city",
+        "population": "293717",
+        "wikidata": "Q22905",
+        "wikipedia": "en:Bradford"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.7494778,
+          53.7941567
+        ]
+      },
+      "id": "node/26701367"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26867377",
+        "is_in": "Cornwall, England, UK",
+        "is_in:continent": "Europe",
+        "is_in:country": "England",
+        "is_in:country_code": "GB",
+        "is_in:county": "Cornwall",
+        "name": "Truro",
+        "name:ar": "ترورو",
+        "name:br": "Truru",
+        "name:el": "Τρούρο",
+        "name:hu": "Truro",
+        "name:kw": "Truru",
+        "name:ru": "Труро",
+        "name:sr": "Труро",
+        "name:uk": "Труро",
+        "place": "city",
+        "population": "20332",
+        "wikidata": "Q180803",
+        "wikipedia": "en:Truro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.0520467,
+          50.2627515
+        ]
+      },
+      "id": "node/26867377"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26867545",
+        "is_in": "North Yorkshire, Yorkshire,England, UK",
+        "is_in:continent": "Europe",
+        "is_in:country": "United Kingdom",
+        "is_in:county": "North Yorkshire",
+        "is_in:historic_county": "Yorkshire",
+        "name": "Ripon",
+        "name:hu": "Ripon",
+        "name:ru": "Рипон",
+        "place": "city",
+        "population": "16000",
+        "postal_code": "HG4",
+        "wikidata": "Q661529",
+        "wikipedia": "en:Ripon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.5213194,
+          54.1368788
+        ]
+      },
+      "id": "node/26867545"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/27209507",
+        "is_in": "West Sussex, England, UK",
+        "is_in:continent": "Europe",
+        "is_in:country": "United Kingdom",
+        "is_in:country_code": "GB",
+        "is_in:county": "West Sussex",
+        "name": "Chichester",
+        "name:hu": "Chichester",
+        "name:ko": "치체스터",
+        "name:la": "Noviomagus Regnorum",
+        "name:ru": "Чичестер",
+        "place": "city",
+        "population": "23700",
+        "wikidata": "Q207639",
+        "wikipedia": "en:Chichester"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.7791721,
+          50.8364862
+        ]
+      },
+      "id": "node/27209507"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/27365030",
+        "alt_name": "The City",
+        "is_in": "City of London, London, UK",
+        "name": "City of London",
+        "name:en": "City of London",
+        "name:es": "City de Londres",
+        "name:fr": "Cité de Londres",
+        "name:he": "הסיטי של לונדון",
+        "name:hi": "सिटी ऑफ़ लंदन",
+        "name:lt": "Londono Sitis",
+        "name:ru": "Сити",
+        "name:uk": "Лондонське Сіті",
+        "name:zh": "倫敦市",
+        "note": "London consists of a collection of boroughs, two of which are Cities. They are not towns and I have changed the nodes to city to reflect reality",
+        "place": "city",
+        "population": "7375",
+        "wikidata": "Q23311",
+        "wikipedia": "en:City of London"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0919983,
+          51.5156177
+        ]
+      },
+      "id": "node/27365030"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/27365306",
+        "is_in": "London, UK",
+        "name": "City of Westminster",
+        "name:be": "Вэстмінстэр",
+        "name:cy": "San Steffan",
+        "name:en": "Westminster",
+        "name:he": "וסטמינסטר",
+        "name:ru": "Вестминстер",
+        "note": "Westminster is technically a \"city within a city\" as it has city status but is in the metropolitan area of London. However, it is a very important area recognised as the centre London and the centre of government in the UK.",
+        "note_1": "London consists of a collection of boroughs, two of which area Cities. They are not towns and I have changed the nodes to city to reflect reality",
+        "place": "city",
+        "population": "233292",
+        "source:population": "2014 estimate(according to Wikiedpia)",
+        "wikidata": "Q179351",
+        "wikipedia": "en:City of Westminster"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.137149,
+          51.4973206
+        ]
+      },
+      "id": "node/27365306"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/27459584",
+        "is_in": "Denbighshire,Cymru,Wales,UK",
+        "name": "St Asaph",
+        "name:cy": "Llanelwy",
+        "name:en": "St Asaph",
+        "name:hu": "St Asaph",
+        "name:uk": "Сент-Асаф",
+        "note": "St Asaph was granted city status in 2012.",
+        "place": "city",
+        "population": "3500",
+        "website": "http://www.stasaph.co.uk/",
+        "wikidata": "Q548248",
+        "wikipedia": "en:St Asaph"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.4438607,
+          53.2575614
+        ]
+      },
+      "id": "node/27459584"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/266155142",
+        "is_capital": "County",
+        "is_in": "South Yorkshire, England, UK",
+        "is_in:continent": "Europe",
+        "is_in:country": "United Kingdom",
+        "is_in:county": "South Yorkshire",
+        "is_in:historic_county": "West Yorkshire",
+        "name": "Sheffield",
+        "name:ar": "شفيلد",
+        "name:be": "Шэфілд",
+        "name:bg": "Шефилд",
+        "name:el": "Σέφιλντ",
+        "name:fa": "شفیلد",
+        "name:he": "שפילד",
+        "name:hi": "शेफ़ील्ड",
+        "name:ja": "シェフィールド",
+        "name:ko": "셰필드",
+        "name:lt": "Šefildas",
+        "name:lv": "Šefīlda",
+        "name:mk": "Шефилд",
+        "name:mr": "शेफील्ड",
+        "name:os": "Шеффилд",
+        "name:pnb": "شیفیلڈ",
+        "name:ru": "Шеффилд",
+        "name:sr": "Шефилд",
+        "name:te": "షెఫీల్డ్",
+        "name:th": "เชฟฟีลด์",
+        "name:uk": "Шеффілд",
+        "name:zh": "谢菲尔德",
+        "place": "city",
+        "population": "547000",
+        "source": "http://www.sheffield.gov.uk/your-city-council/sheffield-facts-figures/sheffield-profile",
+        "wikidata": "Q42448",
+        "wikipedia": "en:Sheffield"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.4702278,
+          53.3806626
+        ]
+      },
+      "id": "node/266155142"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/267762522",
+        "alt_name": "Derry",
+        "loc_name": "Stroke City",
+        "name": "Londonderry/Derry",
+        "name:ar": "ديري",
+        "name:en": "Londonderry/Derry",
+        "name:en_GB": "Londonderry",
+        "name:en_IE": "Derry",
+        "name:ga": "Doire",
+        "name:la": "Derae",
+        "name:lt": "Londonderis",
+        "name:ru": "Дерри",
+        "name:sco": "Lunnonderry",
+        "name:sr": "Дери",
+        "name:uk": "Деррі",
+        "place": "city",
+        "population": "85016",
+        "wikidata": "Q163584",
+        "wikipedia": "en:Derry"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.316801,
+          54.9919421
+        ]
+      },
+      "id": "node/267762522"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/267763062",
+        "gns:ADM1": "Q8",
+        "gns:CC1": "UK",
+        "gns:DMS_LAT": "542100",
+        "gns:DMS_LONG": "-64000",
+        "gns:DSG": "PPLA",
+        "gns:FC": "P",
+        "gns:JOG": "NN29-06",
+        "gns:LAT": "54.35",
+        "gns:LONG": "-6.666667",
+        "gns:MGRS": "29UPA5165024974",
+        "gns:N:xx:FULL_NAME": "Armagh",
+        "gns:N:xx:FULL_NAME_ND": "Armagh",
+        "gns:N:xx:MODIFY_DATE": "2004-10-06",
+        "gns:N:xx:NT": "N",
+        "gns:N:xx:SORT_NAME": "ARMAGH",
+        "gns:RC": "1",
+        "gns:UFI": "-2588529",
+        "gns:UNI": "-3561616",
+        "is_in:continent": "Europe",
+        "is_in:country": "Northern Ireland",
+        "name": "Armagh",
+        "name:ga": "Ard Mhacha",
+        "name:lt": "Arma",
+        "name:ru": "Арма",
+        "name:sr": "Арма",
+        "name:uk": "Арма",
+        "note": "Import of NI places and POIs from GNS Dataset",
+        "place": "city",
+        "population": "14590",
+        "source": "gns_ni",
+        "wikidata": "Q193452",
+        "wikipedia": "en:Armagh"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.6540432,
+          54.3481977
+        ]
+      },
+      "id": "node/267763062"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/294001443",
+        "alt_name:la": "Mamucium",
+        "ele": "38",
+        "is_in:continent": "Europe",
+        "is_in:country": "United Kingdom",
+        "is_in:country_code": "GB",
+        "is_in:county": "Lancashire",
+        "name": "Manchester",
+        "name:ar": "مانشستر",
+        "name:be": "Манчэстэр",
+        "name:be-tarask": "Манчэстэр",
+        "name:ckb": "مەنچستەر",
+        "name:cy": "Manceinion",
+        "name:eo": "Manĉestro",
+        "name:fa": "منچستر",
+        "name:fr": "Manchester",
+        "name:gv": "Manchuin",
+        "name:hi": "मांचॆस्टर",
+        "name:ja": "マンチェスター",
+        "name:kn": "ಮಾಂಚೆಸ್ಟರ್",
+        "name:ko": "맨체스터",
+        "name:la": "Mancunium",
+        "name:ru": "Манчестер",
+        "name:sr": "Манчестер",
+        "name:uk": "Манчестер",
+        "place": "city",
+        "population": "503100",
+        "source:population": "Office for National Statistics 2012",
+        "wikidata": "Q18125",
+        "wikipedia": "en:Manchester"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.2441009,
+          53.4791301
+        ]
+      },
+      "id": "node/294001443"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/663428001",
+        "is_in:continent": "Europe",
+        "is_in:country": "Northern Ireland",
+        "name": "Newry",
+        "name:ga": "Iubhar Cinn Trágha",
+        "name:lt": "Niūris",
+        "name:ru": "Ньюри",
+        "name:uk": "Ньюрі",
+        "note": "Import of NI places and POIs from GNS Dataset",
+        "place": "city",
+        "population": "29946",
+        "source": "gns_ni",
+        "wikidata": "Q269980",
+        "wikipedia": "en:Newry"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.337506,
+          54.1775283
+        ]
+      },
+      "id": "node/663428001"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/738885245",
+        "capital": "4",
+        "is_in": "Wales, United Kingdom, UK, Great Britain, Europe",
+        "is_in:continent": "Europe",
+        "is_in:country": "United Kingdom",
+        "is_in:country_code": "GB",
+        "is_in:historic_county": "Glamorganshire",
+        "is_in:iso_3166_2": "GB-WLS",
+        "is_in:preserved_county": "South Glamorgan",
+        "name": "Cardiff",
+        "name:be": "Кардыф",
+        "name:br": "Kerdiz",
+        "name:cy": "Caerdydd",
+        "name:el": "Κάρντιφ",
+        "name:en": "Cardiff",
+        "name:eo": "Kardifo",
+        "name:fa": "کاردیف",
+        "name:fr": "Cardiff",
+        "name:gv": "Cayr Deeth",
+        "name:he": "קרדיף",
+        "name:hi": "कार्डिफ़",
+        "name:is": "Cardiff",
+        "name:ja": "カーディフ",
+        "name:kn": "ಕಾರ್ಡಿಫ್",
+        "name:ko": "카디프",
+        "name:lv": "Kārdifa",
+        "name:ru": "Кардифф",
+        "name:sr": "Кардиф",
+        "name:sv": "Cardiff",
+        "name:uk": "Кардіфф",
+        "place": "city",
+        "population": "346100",
+        "population:date": "2011",
+        "source_ref:capital": "http://comments.gmane.org/gmane.comp.gis.openstreetmap/55712",
+        "wikidata": "Q10690",
+        "wikipedia": "en:Cardiff"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1791934,
+          51.4816546
+        ]
+      },
+      "id": "node/738885245"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/959199214",
+        "ele": "11",
+        "is_in": "Bristol,England",
+        "is_in:continent": "Europe",
+        "is_in:country": "United Kingdom",
+        "name": "Bristol",
+        "name:cy": "Bryste",
+        "name:en": "Bristol",
+        "name:eo": "Bristolo",
+        "name:ja": "ブリストル",
+        "name:lt": "Bristolis",
+        "name:ru": "Бристоль",
+        "name:sr": "Бристол",
+        "name:uk": "Бристоль",
+        "place": "city",
+        "population": "421300",
+        "ref:LOCODE": "GBBRS",
+        "wikidata": "Q23154",
+        "wikipedia": "en:Bristol"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5972985,
+          51.4538022
+        ]
+      },
+      "id": "node/959199214"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1326762432",
+        "is_in": "East Sussex, UK",
+        "is_in:county": "East Sussex",
+        "name": "Brighton",
+        "name:bg": "Брайтън",
+        "name:he": "ברייטון",
+        "name:lt": "Braitonas",
+        "name:ru": "Брайтон",
+        "name:sr": "Брајтон",
+        "name:uk": "Брайтон",
+        "place": "city",
+        "population": "256000",
+        "wikidata": "Q131491",
+        "wikimedia_commons": "Category:Brighton,_East_Sussex",
+        "wikipedia": "en:Brighton"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1374061,
+          50.8220399
+        ]
+      },
+      "id": "node/1326762432"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1418701024",
+        "capital": "4",
+        "is_in": "Northern Ireland, United Kingdom, Europe",
+        "is_in:continent": "Europe",
+        "is_in:country": "Northern Ireland",
+        "is_in:country_code": "GB",
+        "is_in:iso_3166_2": "GB-NIR",
+        "name": "Belfast",
+        "name:ar": "بلفاست",
+        "name:be": "Белфаст",
+        "name:be-tarask": "Бэлфаст",
+        "name:ckb": "بێلفاست",
+        "name:cy": "Belffast",
+        "name:el": "Μπέλφαστ",
+        "name:eo": "Belfasto",
+        "name:ga": "Béal Feirste",
+        "name:gv": "Beeal Feirshtey",
+        "name:he": "בלפסט",
+        "name:is": "Belfast",
+        "name:ja": "ベルファスト",
+        "name:ko": "벨파스트",
+        "name:la": "Belfastum",
+        "name:lt": "Belfastas",
+        "name:ru": "Белфаст",
+        "name:sk": "Belfast",
+        "name:sr": "Белфаст",
+        "name:sv": "Belfast",
+        "name:uk": "Белфаст",
+        "name:zh": "贝尔法斯特",
+        "note": "Import of NI places and POIs from GNS Dataset",
+        "place": "city",
+        "population": "333000",
+        "ref:LOCODE": "GBBEL",
+        "source": "gns_ni",
+        "source:population": "http://www.belfastcity.gov.uk/factsandfigures/demographics.asp",
+        "source_ref:capital": "http://comments.gmane.org/gmane.comp.gis.openstreetmap/55712",
+        "wikidata": "Q10686",
+        "wikipedia": "en:Belfast"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9300992,
+          54.5969869
+        ]
+      },
+      "id": "node/1418701024"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1460517034",
+        "gns:ADM1": "S5",
+        "gns:CC1": "UK",
+        "gns:DMS_LAT": "543100",
+        "gns:DMS_LONG": "-60400",
+        "gns:DSG": "PPLA",
+        "gns:FC": "P",
+        "gns:JOG": "NN29-06",
+        "gns:LAT": "54.516667",
+        "gns:LONG": "-6.066667",
+        "gns:MGRS": "29UPA8986344968",
+        "gns:N:xx:FULL_NAME": "Lisburn",
+        "gns:N:xx:FULL_NAME_ND": "Lisburn",
+        "gns:N:xx:MODIFY_DATE": "2004-10-06",
+        "gns:N:xx:NT": "N",
+        "gns:N:xx:SORT_NAME": "Lisburn",
+        "gns:RC": "1",
+        "gns:UFI": "-2601220",
+        "gns:UNI": "-3577329",
+        "gns:V:xx:FULL_NAME": "Lios na gCearrbhach",
+        "gns:V:xx:FULL_NAME_ND": "Lios na gCearrbhach",
+        "gns:V:xx:MODIFY_DATE": "2004-10-06",
+        "gns:V:xx:NT": "V",
+        "gns:V:xx:SORT_NAME": "LIOSNAGCEARRBHACH",
+        "is_in:continent": "Europe",
+        "is_in:country": "Northern Ireland",
+        "name": "Lisburn",
+        "name:ga": "Lios na gCearrbhach",
+        "name:lt": "Lisbernas",
+        "name:ru": "Лисберн",
+        "name:uk": "Лісберн",
+        "note": "Import of NI places and POIs from GNS Dataset",
+        "place": "city",
+        "population": "71403",
+        "source": "gns_ni",
+        "wikidata": "Q210647",
+        "wikipedia": "en:Lisburn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.0353142,
+          54.5129355
+        ]
+      },
+      "id": "node/1460517034"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1586199140",
+        "is_in": "Wiltshire, England, UK",
+        "is_in:continent": "Europe",
+        "is_in:country": "United Kingdom",
+        "is_in:county": "Wiltshire",
+        "name": "Salisbury",
+        "name:cy": "Caersallog",
+        "name:ru": "Солсбери",
+        "name:sr": "Солсбери",
+        "name:uk": "Солсбері",
+        "place": "city",
+        "population": "45000",
+        "source": "NPE tracing",
+        "wikidata": "Q160642",
+        "wikipedia": "en:Salisbury"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.7951176,
+          51.0736612
+        ]
+      },
+      "id": "node/1586199140"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1593040792",
+        "is_in:county": "Cambridgeshire",
+        "name": "Ely",
+        "name:ru": "Или",
+        "name:uk": "Ілі",
+        "place": "city",
+        "population": "15102",
+        "wikidata": "Q209176",
+        "wikipedia": "en:Ely, Cambridgeshire"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.2630951,
+          52.3998376
+        ]
+      },
+      "id": "node/1593040792"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1610961669",
+        "is_in": "Hampshire; England; UK; United Kingdom",
+        "name": "Winchester",
+        "name:cy": "Caerwynt",
+        "name:ru": "Винчестер",
+        "name:sr": "Винчестер",
+        "name:uk": "Вінчестер",
+        "place": "city",
+        "population": "37501",
+        "wikidata": "Q172157",
+        "wikipedia": "en:Winchester"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.3131692,
+          51.0612766
+        ]
+      },
+      "id": "node/1610961669"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2478628079",
+        "is_in:continent": "Europe",
+        "is_in:country": "United Kingdom",
+        "is_in:country_code": "GB",
+        "name": "Southampton",
+        "name:hu": "Southampton",
+        "name:ru": "Саутгемптон",
+        "name:uk": "Саутгемптон",
+        "place": "city",
+        "population": "253651",
+        "wikidata": "Q79848",
+        "wikipedia": "en:Southampton"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.404189,
+          50.9025349
+        ]
+      },
+      "id": "node/2478628079"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3712052604",
+        "is_in": "Wales",
+        "is_in:continent": "Europe",
+        "is_in:country": "United Kingdom",
+        "is_in:county": "Pembrokeshire",
+        "name": "St David's",
+        "name:ar": "سانت ديفيد",
+        "name:cy": "Tyddewi",
+        "name:en": "St David's",
+        "name:hu": "St David's",
+        "name:ru": "Сент-Дейвидс",
+        "name:uk": "Сент-Дейвідс",
+        "note": "Although the size of a small town, St David's is an official city.",
+        "place": "city",
+        "population": "2000",
+        "wikidata": "Q648732",
+        "wikipedia": "en:St Davids"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.2662303,
+          51.881261
+        ]
+      },
+      "id": "node/3712052604"
+    }
+  ]
+}

@@ -1,5 +1,12 @@
-var lat = -1.7531;
-var lon = 53.7974;
+var coord = sessionStorage.getItem("coord");
+if (coord === null) coord = [-1.7531, 53.7974];
+var name = sessionStorage.getItem("name");
+if (name === null) name = "Bradford";
+
+coord = JSON.parse("[" + coord + "]");
+
+console.log(coord);
+
 // var data_url = "http://overpass-api.de/api/intepreter?data=way[ref=%22A709%22][highway=primary][name=%22Authur%27s%20Place%22];"
 
 var styles = {
@@ -56,6 +63,13 @@ var unc_styles = {
       stroke: new ol.style.Stroke({
         color: 'rgba(199, 193, 168, 1)',
         width: 6
+      })
+    }),
+    'pedestrian': new ol.style.Style({
+      stroke: new ol.style.Stroke({
+        lineDash: [5],
+        color: 'rgba(159, 159, 69, 1)',
+        width: 2
       })
     })
   }
@@ -248,18 +262,20 @@ var building_styles = {
 
 
 var osm = new ol.layer.Tile({
-  title: "PlaceholderX",
+  id: "osm",
+  title: "_OSM",
+  excludeFromList: true,
+  visible: true,
   source: new ol.source.OSM()
 })
 
+// DEBUG
 var osm_no_labels = new ol.layer.Tile({
   source: new ol.source.OSM({
     url: "http://a.www.toolserver.org/tiles/osm-no-labels/{z}/{x}/{y}.png",
     crossOrigin: null
   })
 })
-
-
 
 var vectorSource = new ol.source.Vector({
   format: new ol.format.OSMXML(),
@@ -284,7 +300,10 @@ var vectorSource = new ol.source.Vector({
 });
 
 var vectors = new ol.layer.Vector({
-  title: "Placeholder",
+  id: "vectors",
+  title: "_Default",
+  excludeFromList: true,
+  visible: true,
   source: vectorSource,
   style: function(feature) {
     for (var key in styles) {
@@ -302,8 +321,11 @@ var vectors = new ol.layer.Vector({
 });
 
 var aeroway_vectors = new ol.layer.Vector({
+  id: "aeroway_vectors",
   title: "Airport-related",
   source: vectorSource,
+  excludeFromList: true,
+  visible: true,
   style: function(feature) {
     for (var key in aeroway_styles) {
       var value = feature.get(key);
@@ -320,8 +342,11 @@ var aeroway_vectors = new ol.layer.Vector({
 });
 
 var amenity_vectors = new ol.layer.Vector({
+  id: "amenity_vectors",
   title: "Amenity",
   source: vectorSource,
+  excludeFromList: false,
+  visible: false,
   style: function(feature) {
     for (var key in amenity_styles) {
       var value = feature.get(key);
@@ -338,8 +363,11 @@ var amenity_vectors = new ol.layer.Vector({
 });
 
 var natural_vectors = new ol.layer.Vector({
+  id: "natural_vectors",
   title: "Natural resources",
   source: vectorSource,
+  excludeFromList: false,
+  visible: false,
   style: function(feature) {
     for (var key in natural_styles) {
       var value = feature.get(key);
@@ -356,7 +384,10 @@ var natural_vectors = new ol.layer.Vector({
 });
 
 var building_vectors = new ol.layer.Vector({
+  id: "building_vectors",
   title: "Buildings",
+  visible: false,
+  excludeFromList: false,
   source: vectorSource,
   style: function(feature) {
     for (var key in building_styles) {
@@ -374,7 +405,10 @@ var building_vectors = new ol.layer.Vector({
 });
 
 var unc_vectors = new ol.layer.Vector({
+  id: "unc_vectors",
   title: "Unclassified roads",
+  visible: true,
+  excludeFromList: false,
   source: vectorSource,
   style: function(feature) {
     for (var key in unc_styles) {
@@ -392,7 +426,10 @@ var unc_vectors = new ol.layer.Vector({
 });
 
 var tert_vectors = new ol.layer.Vector({
+  id: "tert_vectors",
   title: "Tertiary roads",
+  visible: true,
+  excludeFromList: false,
   source: vectorSource,
   style: function(feature) {
     for (var key in tert_styles) {
@@ -410,7 +447,10 @@ var tert_vectors = new ol.layer.Vector({
 });
 
 var ped_vectors = new ol.layer.Vector({
+  id: "ped_vectors",
   title: "Pedestrian & cyclist routes",
+  visible: false,
+  excludeFromList: false,
   source: vectorSource,
   style: function(feature) {
     for (var key in ped_styles) {
@@ -428,7 +468,10 @@ var ped_vectors = new ol.layer.Vector({
 });
 
 var land_use_vectors = new ol.layer.Vector({
+  id: "land_use_vectors",
   title: "Land use",
+  excludeFromList: false,
+  visible: false,
   source: vectorSource,
   style: function(feature) {
     for (var key in land_use_styles) {
@@ -446,8 +489,11 @@ var land_use_vectors = new ol.layer.Vector({
 });
 
 var aux_vectors = new ol.layer.Vector({
+  id: "aux_vectors",
   title: "Auxilliary roads",
   source: vectorSource,
+  excludeFromList: false,
+  visible: true,
   style: function(feature) {
     for (var key in aux_styles) {
       var value = feature.get(key);
@@ -464,8 +510,11 @@ var aux_vectors = new ol.layer.Vector({
 });
 
 var res_rd_vectors = new ol.layer.Vector({
+  id: "res_rd_vectors",
   title: "Residential roads",
   source: vectorSource,
+  excludeFromList: false,
+  visible: true,
   style: function(feature) {
     for (var key in res_rd_styles) {
       var value = feature.get(key);
@@ -482,14 +531,14 @@ var res_rd_vectors = new ol.layer.Vector({
 });
 
 var layers = {
-    full_list: [osm, land_use_vectors, natural_vectors, building_vectors, ped_vectors, aux_vectors, res_rd_vectors, unc_vectors, tert_vectors, vectors, aeroway_vectors, amenity_vectors]
+    full_list: [land_use_vectors, natural_vectors, building_vectors, amenity_vectors, ped_vectors, aux_vectors, res_rd_vectors, unc_vectors, tert_vectors, vectors, aeroway_vectors]
 };
 
 var map = new ol.Map({
   target: 'map',
-  layers: [aux_vectors, res_rd_vectors, unc_vectors, tert_vectors, vectors, aeroway_vectors],
+  layers: layers.full_list,
   view: new ol.View({
-    center: ol.proj.fromLonLat([lat, lon]),
+    center: ol.proj.fromLonLat(coord),
     maxZoom: 16,
     zoom: 16,
     minZoom: 16

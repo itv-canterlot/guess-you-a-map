@@ -1,6 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en">
   <head>
+    <meta charset="utf-8">
     <link rel="stylesheet" href="http://meyerweb.com/eric/tools/css/reset/reset.css" type="text/css">
     <link rel="stylesheet" href="https://openlayers.org/en/v4.4.2/css/ol.css" type="text/css">
     <link rel="stylesheet" href="css/index.css" type="text/css">
@@ -8,29 +9,20 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <title>Guess yerself a map!</title>
   </head>
-  <body>
-    <!-- <h2>My Map</h2> -->
+  <body onload="onLoad()">
     <div class="float-box" id="top-right-box">
       <input type="button" name="top-right-show" class="cont-right" value="<<">
-      <ul class="cont-left" id="coordinates">
-        <li>Set coordinates</li>
-        <li>
-          <li>
-            Longitude:<br>
-            <input type="text" name="new-long">
-          </li>
-          <li>
-            Latitute<br>
-            <input type="text" name="new-lat">
-        </li>
-        <li>
-          <input type="button" name="newco-sub" id="newco-sub" value="Submit" onclick="changeCoord">
-        </li>
-      </ul>
+      <ul class="cont-left" id="coordinates"></ul>
+    </div>
+    <div id="bottom-third" class="bottom">
+      <p class="status_text" id="b3_status"></p>
+      <input type="text" id="b3_answer" style="display: none">
+      <div id="b3_next" class="b3_button">
+        <p id= "b3_next_p"></p>
+      </div>
     </div>
     <div id="map" class="map"></div>
     <script type="text/javascript" src="js/map.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
-    <script type="text/javascript" src="js/buttons.js"></script>
   </body>
 </html>
