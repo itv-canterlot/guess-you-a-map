@@ -1,7 +1,7 @@
 var coord = sessionStorage.getItem("coord");
 if (coord === null) coord = [-1.7531, 53.7974];
 var name = sessionStorage.getItem("name");
-if (name === null) name = "Bradford";
+if (name === "null") name = "Bradford";
 
 coord = JSON.parse("[" + coord + "]");
 
@@ -265,7 +265,7 @@ var osm = new ol.layer.Tile({
   id: "osm",
   title: "_OSM",
   excludeFromList: true,
-  visible: true,
+  visible: false,
   source: new ol.source.OSM()
 })
 
@@ -407,7 +407,7 @@ var building_vectors = new ol.layer.Vector({
 var unc_vectors = new ol.layer.Vector({
   id: "unc_vectors",
   title: "Unclassified roads",
-  visible: true,
+  visible: false,
   excludeFromList: false,
   source: vectorSource,
   style: function(feature) {
@@ -428,7 +428,7 @@ var unc_vectors = new ol.layer.Vector({
 var tert_vectors = new ol.layer.Vector({
   id: "tert_vectors",
   title: "Tertiary roads",
-  visible: true,
+  visible: false,
   excludeFromList: false,
   source: vectorSource,
   style: function(feature) {
@@ -493,7 +493,7 @@ var aux_vectors = new ol.layer.Vector({
   title: "Auxilliary roads",
   source: vectorSource,
   excludeFromList: false,
-  visible: true,
+  visible: false,
   style: function(feature) {
     for (var key in aux_styles) {
       var value = feature.get(key);
@@ -514,7 +514,7 @@ var res_rd_vectors = new ol.layer.Vector({
   title: "Residential roads",
   source: vectorSource,
   excludeFromList: false,
-  visible: true,
+  visible: false,
   style: function(feature) {
     for (var key in res_rd_styles) {
       var value = feature.get(key);

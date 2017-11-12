@@ -18,10 +18,20 @@ function makeUL(array) {
     list.setAttribute("style", "margin-top: 2%");
     return list;
 }
-
 function onLoad() {
   document.getElementById('coordinates').appendChild(makeUL(layers.full_list));
 }
+
+// function topRightButton() {
+//   if (document.getElementById('cont-right').getAttribute("value") === ">>") {
+//     document.getElementById('top-right-box').setAttribute("style", "display: none");
+//     document.getElementById('cont-right').setAttribute("value") = "<<";
+//   } else if (document.getElementById('cont-right').getAttribute("value") === "<<") {
+//       document.getElementById('top-right-box').setAttribute("style", "display: block");
+//       document.getElementById('cont-right').setAttribute("value") = ">>";
+//     }
+// }
+
 
 function changeVis(id) {
   for (var i = 0; i < layers.full_list.length; i++) {

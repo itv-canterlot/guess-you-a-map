@@ -17,6 +17,8 @@ body {
 
 .float-box {
   position: absolute;
+  background: rgba(167, 41, 209, 0.5);
+  padding: 10px;
 }
 
 #top-right-box {
